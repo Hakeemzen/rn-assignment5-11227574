@@ -12,3 +12,7 @@ Navigation React Navigation is used to switch between the Home and Settings scre
 Dark Mode Implementation A state variable isDarkMode is used to track the current theme. Conditional styling is applied to the components based on the isDarkMode state.
 
 Styles Styles are defined using StyleSheet.create and applied conditionally based on the isDarkMode state.
+![dark theme](RNAssignment5/dark1.jpeg)
+![dark theme](RNAssignment5/dark2.jpeg)
+![light theme](RNAssignment5/light1.jpeg)
+![light theme](RNAssignment5/light2.jpeg)
