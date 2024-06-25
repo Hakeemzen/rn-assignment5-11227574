@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## rn-assignment5-11227574
+=======
+# rn-assignment5-11227574
+>>>>>>> df5f795b70b765c1de36cb969c2db57630193718
 Overview Finance Tracker is a mobile application built with React Native that helps users manage their financial transactions. Users can view their recent transactions, manage different financial operations like sending, receiving, loans, and top-ups, and switch between light and dark themes.
 
 Features Home Screen with user profile, financial operations, and recent transactions. Settings Screen with various options and a theme toggle. Light and Dark mode support. Navigation between Home and Settings screens.
@@ -12,9 +16,16 @@ Navigation React Navigation is used to switch between the Home and Settings scre
 Dark Mode Implementation A state variable isDarkMode is used to track the current theme. Conditional styling is applied to the components based on the isDarkMode state.
 
 Styles Styles are defined using StyleSheet.create and applied conditionally based on the isDarkMode state.
+<<<<<<< HEAD
 
 ## Screenshot
 ![dark theme](home1.jpeg)
 ![light theme](home2.jpeg)
 ![dark theme](set1.jpeg)
 ![light theme](set2.jpeg)
+=======
+![dark theme](RNAssignment5/dark1.jpeg)
+![dark theme](RNAssignment5/dark2.jpeg)
+![light theme](RNAssignment5/light1.jpeg)
+![light theme](RNAssignment5/light2.jpeg)
+>>>>>>> df5f795b70b765c1de36cb969c2db57630193718
