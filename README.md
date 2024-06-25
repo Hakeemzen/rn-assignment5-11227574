@@ -1,79 +1,20 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+## rn-assignment5-11227574
+Overview Finance Tracker is a mobile application built with React Native that helps users manage their financial transactions. Users can view their recent transactions, manage different financial operations like sending, receiving, loans, and top-ups, and switch between light and dark themes.
 
-# Getting Started
+Features Home Screen with user profile, financial operations, and recent transactions. Settings Screen with various options and a theme toggle. Light and Dark mode support. Navigation between Home and Settings screens.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Home Screen Component The HomeScreen component displays the user's profile, a list of financial operations (Send, Receive, Loan, Topup), and recent transactions. It also includes navigation to the Settings screen and a toggle for dark mode.
 
-## Step 1: Start the Metro Server
+Settings Screen Component The SettingsScreen component provides various settings options like changing language, profile management, contact support, changing password, and privacy policy. It includes a toggle switch to change the theme.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Navigation React Navigation is used to switch between the Home and Settings screens.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Dark Mode Implementation A state variable isDarkMode is used to track the current theme. Conditional styling is applied to the components based on the isDarkMode state.
 
-```bash
-# using npm
-npm start
+Styles Styles are defined using StyleSheet.create and applied conditionally based on the isDarkMode state.
 
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Screenshot
+![dark theme](home1.jpeg)
+![light theme](home2.jpeg)
+![dark theme](set1.jpeg)
+![light theme](set2.jpeg)
